@@ -1,0 +1,20 @@
+name: bitego_mvp
+description: BiteGo MVP - video-first food delivery prototype
+publish_to: 'none'
+version: 0.1.0
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  video_player: ^2.5.0
+  flutter_swiper_view: ^1.0.6
+  http: ^0.13.5
+  provider: ^6.0.5
+  image_picker: ^0.8.7+4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
